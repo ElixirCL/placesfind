@@ -3,7 +3,7 @@ defmodule ElixirCL.Places.Find.MixProject do
 
   def project do
     [
-      app: :elixircl_place_find,
+      app: :elixircl_places_find,
       version: "1.0.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,

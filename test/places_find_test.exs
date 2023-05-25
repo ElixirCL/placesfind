@@ -1,8 +1,6 @@
 defmodule ElixirCL.Places.FindTest do
   use ExUnit.Case
-  doctest ElixirCL.Places.Find
+  alias ElixirCL.Places.Find
+  doctest Find
 
-  test "greets the world" do
-    assert Findplace.hello() == :world
-  end
 end
